@@ -68,8 +68,8 @@ const Home: React.FC = () => {
   };
 
   return (
-    <main className="bg-slate-800 h-full">
-      <div className="flex flex-wrap content-center w-[950px] m-auto h-screen ">
+    <div className="box-border h-[100vh] bg-slate-800">
+      <div className="flex flex-wrap content-center w-[950px] m-auto h-screen">
         {state.map((item) => (
           <button key={item.id} onClick={() => putPiece(item)}>
             <Image
@@ -93,7 +93,7 @@ const Home: React.FC = () => {
           priority
         ></Image>
       </div>
-    </main>
+    </div>
   );
 };
 

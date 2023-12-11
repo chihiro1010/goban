@@ -1,5 +1,3 @@
-"use client";
-
 import React, { Dispatch, SetStateAction } from "react";
 import Image from "next/image";
 import { IState } from "../page";

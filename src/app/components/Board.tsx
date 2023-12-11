@@ -1,5 +1,3 @@
-"use client";
-
 import React, { Dispatch, SetStateAction, useState } from "react";
 import { IState } from "../page";
 import { data } from "../data";
